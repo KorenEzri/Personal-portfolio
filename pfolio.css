@@ -136,6 +136,7 @@ body {
 
 /* GRID END */
 /* MAKE  PROJECT GRID RESPONSIVE */
+
 @media (min-width: 200px) {
   .projects-tile {
     grid-template-columns: repeat(1, 1fr);
@@ -333,6 +334,47 @@ footer {
   padding-right: 15px;
   text-decoration: none;
   background-image: url("pics/EminemTheMothafuckinKing.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-shadow: 0.07em 0 rgb(5, 5, 5), 0 0.07em rgb(3, 3, 3),
+    -0.07em 0 rgb(0, 0, 0), 0 -0.07em rgb(0, 0, 0);
+}
+
+#loaf:hover {
+  border: 2px solid rgb(0, 0, 0);
+  font-weight: bold;
+  color: rgb(253, 253, 253);
+  padding-right: 15px;
+  text-decoration: none;
+  background-image: url("pics/loaf4sale.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-shadow: 0.07em 0 rgb(5, 5, 5), 0 0.07em rgb(3, 3, 3),
+    -0.07em 0 rgb(0, 0, 0), 0 -0.07em rgb(0, 0, 0);
+}
+
+#tribute:hover {
+  font-size: 18px;
+  border: 2px solid rgb(5, 5, 5);
+  font-weight: bold;
+  color: rgb(246, 8, 8);
+  padding-right: 15px;
+  text-decoration: none;
+  background-image: url("pics/EminemTheMothafuckinKing.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-shadow: 0.07em 0 rgb(5, 5, 5), 0 0.07em rgb(3, 3, 3),
+    -0.07em 0 rgb(0, 0, 0), 0 -0.07em rgb(0, 0, 0);
+}
+
+#survey:hover {
+  font-size: 18px;
+  border: 2px solid rgb(0, 0, 0);
+  font-weight: bold;
+  color: rgb(250, 148, 148);
+  padding-right: 15px;
+  text-decoration: none;
+  background-image: url("pics/surveypicc.PNG");
   background-size: cover;
   background-repeat: no-repeat;
   text-shadow: 0.07em 0 rgb(5, 5, 5), 0 0.07em rgb(3, 3, 3),
